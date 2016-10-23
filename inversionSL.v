@@ -395,7 +395,7 @@ Save lemma1_inv_systemSL.
 Hint Resolve lemma1_inv_systemSL.
 
 Goal forall (b : wsort) (M N : TS b), e_relSL _ M N -> e_invSL _ M N.
-simple induction 1; intros; simpl in |- *; auto 11 with v62.
+simple induction 1; intros; simpl in |- *; auto 11.
 Save lemma1_invSL.
 Hint Resolve lemma1_invSL.
 
